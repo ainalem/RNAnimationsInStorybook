@@ -1,6 +1,6 @@
-import React, { PureComponent } from "react";
+import React from "react";
 
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Row from "./Row";
 
 const styles = StyleSheet.create({
@@ -19,26 +19,6 @@ const styles = StyleSheet.create({
 
 export default () => (
   <View style={styles.container}>
-    {
-      // <Row
-      //   avatar={require("../../images/person1.jpg")}
-      //   title="Eduardo"
-      //   subtitle=""
-      //   body=""
-      // />
-      // <Row
-      //   avatar={require("../../images/person2.jpg")}
-      //   title="Mila"
-      //   subtitle=""
-      //   body=""
-      // />
-      // <Row
-      //   avatar={require("../../images/person3.jpg")}
-      //   title="Eva"
-      //   subtitle=""
-      //   body=""
-      // />
-    }
     <Row />
     <Row />
     <Row />

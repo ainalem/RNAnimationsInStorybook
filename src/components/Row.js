@@ -31,8 +31,8 @@ const styles = StyleSheet.create({
     height: 1
   },
   title: {
+    backgroundColor: "#C0C4D8",
     borderRadius: 3,
-    fontWeight: "bold",
     marginBottom: 5,
     marginTop: 24,
     height: 16,
@@ -54,8 +54,7 @@ export default props => {
   const { avatar, title, subtitle, body } = props;
   return (
     <View style={styles.container}>
-      {!avatar && <View style={styles.skeletonAvatar} />}
-      {avatar && <Image style={styles.avatar} source={avatar} />}
+      <View style={styles.skeletonAvatar} />
       <View style={styles.text}>
         <View style={styles.title}>
           <Text style={styles.titleText}>{title}</Text>

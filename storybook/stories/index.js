@@ -2,8 +2,6 @@ import React from "react";
 
 import { storiesOf } from "@storybook/react-native";
 
-import { withKnobs, select } from "@storybook/addon-knobs";
-
 import People from "../../src/components/People";
 import List from "../../src/components/List";
 import Row from "../../src/components/Row";

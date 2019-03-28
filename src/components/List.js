@@ -19,28 +19,23 @@ const styles = StyleSheet.create({
 
 export default () => (
   <View style={styles.container}>
-    {
-      // <Row
-      //   avatar={require("../../images/person1.jpg")}
-      //   title="Eduardo"
-      //   subtitle=""
-      //   body=""
-      // />
-      // <Row
-      //   avatar={require("../../images/person2.jpg")}
-      //   title="Mila"
-      //   subtitle=""
-      //   body=""
-      // />
-      // <Row
-      //   avatar={require("../../images/person3.jpg")}
-      //   title="Eva"
-      //   subtitle=""
-      //   body=""
-      // />
-    }
-    <Row />
-    <Row />
-    <Row />
+    <Row
+      avatar={require("../../images/person1.jpg")}
+      title="Eduardo"
+      subtitle=""
+      body=""
+    />
+    <Row
+      avatar={require("../../images/person2.jpg")}
+      title="Mila"
+      subtitle=""
+      body=""
+    />
+    <Row
+      avatar={require("../../images/person3.jpg")}
+      title="Eva"
+      subtitle=""
+      body=""
+    />
   </View>
 );

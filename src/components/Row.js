@@ -51,11 +51,11 @@ const styles = StyleSheet.create({
 });
 
 export default props => {
+  console.log(avatar);
   const { avatar, title, subtitle, body } = props;
   return (
     <View style={styles.container}>
-      {!avatar && <View style={styles.skeletonAvatar} />}
-      {avatar && <Image style={styles.avatar} source={avatar} />}
+      <Image style={styles.avatar} source={avatar} />
       <View style={styles.text}>
         <View style={styles.title}>
           <Text style={styles.titleText}>{title}</Text>
